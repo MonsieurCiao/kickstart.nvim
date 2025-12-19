@@ -28,10 +28,10 @@ return {
       -- your own keymap.
       keymap = {
         -- set to 'none' to disable the 'default' preset
-        preset = 'default',
-        ['<Tab>'] = { 'accept' },
-        ['<Up>'] = { 'select_prev', 'fallback' },
-        ['<Down>'] = { 'select_next', 'fallback' },
+        preset = 'super-tab',
+        --['<Tab>'] = { 'accept' },
+        --['<Up>'] = { 'select_prev', 'fallback' },
+        --['<Down>'] = { 'select_next', 'fallback' },
       },
       snippets = { preset = 'luasnip' },
       completion = {
