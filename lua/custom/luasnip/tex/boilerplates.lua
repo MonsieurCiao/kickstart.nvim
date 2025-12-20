@@ -22,7 +22,7 @@ return {
 				\usepackage{breqn}
 				\usepackage[margin=1in]{geometry} 
 				\usepackage{amsmath,amsthm,amssymb,enumitem}
-				\usepackage[german,spanish,english]{babel}
+				\usepackage[german,english]{babel}
 				\usepackage{tensor}
 				\usepackage{graphicx}
 				\usepackage{esint}
@@ -59,7 +59,7 @@ return {
 
 				\end{document}
 			]],
-      { i(1, 'Name(s)'), i(2, 'Title of the homework'), i(0) }
+      { i(1, 'Lukas'), i(2, 'Title of the homework'), i(0) }
     )
   ),
 

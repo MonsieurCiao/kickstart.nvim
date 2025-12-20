@@ -75,6 +75,16 @@ return {
     fmta('\\frac{d <>}{d <>}', { i(1), i(2) }),
     { condition = in_mathzone }
   ),
+  s(
+    { trig = 'tf2', snippetType = 'autosnippet', priority = 1001, dscr = 'total derivative operator', wordTrig = false },
+    fmta('\\frac{d^2 <>}{d <>^2}', { i(1), i(2) }),
+    { condition = in_mathzone }
+  ),
+  s(
+    { trig = 'tf3', snippetType = 'autosnippet', priority = 1001, dscr = 'total derivative operator', wordTrig = false },
+    fmta('\\frac{d^3 <>}{d <>^3}', { i(1), i(2) }),
+    { condition = in_mathzone }
+  ),
 
   s(
     { trig = 'pff', snippetType = 'autosnippet', priority = 1001, dscr = 'partial fraction operator', wordTrig = false },

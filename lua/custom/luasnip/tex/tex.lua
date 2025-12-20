@@ -32,4 +32,6 @@ return {
   s({ trig = 'maketit' }, {
     t '\\maketitle',
   }),
+  s({ trig = 'ra', priority = 1001 }, { t '\\rightarrow' }),
+  s({ trig = 'la', priority = 1001 }, { t '\\leftarrow' }),
 }
