@@ -60,7 +60,7 @@ return {
 
   s({ trig = 'ha', snippetType = 'autosnippet', dscr = 'hat accent', wordTrig = false }, fmta('\\hat{<>}', { i(1) }), { condition = in_mathzone }),
 
-  s({ trig = 'vec', snippetType = 'autosnippet', dscr = 'Vector', wordTrig = false }, fmta('\\vec{<>}', { i(1) }), { condition = in_mathzone }),
+  s({ trig = 've', snippetType = 'autosnippet', dscr = 'Vector', wordTrig = false }, fmta('\\vec{<>}', { i(1) }), { condition = in_mathzone }),
 
   --MATHEMATICAL OPERATORS.
 
@@ -226,7 +226,7 @@ return {
     t '\\nabla',
   }, { condition = in_mathzone }),
 
-  s({ trig = 'dot', snippetType = 'autosnippet', dscr = 'center dot', wordTrig = false }, {
+  s({ trig = 'do', snippetType = 'autosnippet', dscr = 'center dot', wordTrig = false }, {
     t '\\cdot',
   }, { condition = in_mathzone }),
 

@@ -12,5 +12,7 @@ return {
     vim.g.vimtex_quickfix_open_on_warning = 0 --  don't open quickfix if there are only warnings
     vim.g.vimtex_quickfix_ignore_filters =
       { 'Underfull', 'Overfull', 'LaTeX Warning: .\\+ float specifier changed to', 'Package hyperref Warning: Token not allowed in a PDF string' }
+    -- vim.g.vimtex_fold_enabled = 1
+    -- vim.g.vimtex_indent_enabled = 1
   end,
 }

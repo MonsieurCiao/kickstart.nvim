@@ -20,11 +20,13 @@ return {
 				\documentclass[12pt]{article}
 
 				\usepackage{breqn}
-				\usepackage[margin=1in]{geometry} 
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry} 
 				\usepackage{amsmath,amsthm,amssymb,enumitem}
 				\usepackage[german,english]{babel}
 				\usepackage{tensor}
 				\usepackage{graphicx}
+				\usepackage{pgfplots}
+				\pgfplotsset{width=10cm,compat=1.9}
 				\usepackage{esint}
 				\usepackage[T1]{fontenc}
 				\usepackage{mathtools}

@@ -22,11 +22,10 @@ return {
     fmta(
       [[
 \section{<>}
-\label{sec:<>}
 
 
 ]],
-      { i(1), i(2) }
+      { i(1) }
     )
   ),
 
@@ -40,11 +39,10 @@ return {
     fmta(
       [[
 \subsection{<>}
-\label{subsec:<>}
 
 
 ]],
-      { i(1), i(2) }
+      { i(1) }
     )
   ),
 
@@ -58,11 +56,10 @@ return {
     fmta(
       [[
 \subsubsection{<>}
-\label{subsubsec:<>}
 
 
 ]],
-      { i(1), i(2) }
+      { i(1) }
     )
   ),
 
@@ -85,6 +82,7 @@ return {
       { i(1), i(2) }
     )
   ),
+  s({ trig = '--', snippetType = 'autosnippet', dscr = 'item', wordTrig = false }, { t '\\item' }),
 
   s({ trig = 'emph', dscr = 'emphasize', wordTrig = false }, fmta('\\emph{<>}', { i(1) })),
 
